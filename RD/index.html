@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Form</title>
+
+</head>
+<link rel="stylesheet" href="tools.css" />
+
+<body>
+    <form>
+        <h1> Fill the form </h1>
+        <hr>
+
+        <label for="username"> Username :</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password"><br>
+
+        gender:<br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male"> male </label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="male">female </label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="male"> other </label></br>
+
+        skills:<br>
+        <input type="checkbox" id="HTML" name="skills" value="HTML">
+        <label for="HTML">HTML</label>
+        <input type="checkbox" id="CSS" name="skills" value="CSS">
+        <label for="HTML">CSS</label>
+        <input type="checkbox" id="JAVASCRIPT" name="skills" value="JAVASCRIPT">
+        <label for="HTML">JAVASCRIPT</label></br>
+
+        Select Country:
+        <select id="country">
+            <option>--select--</option>
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+        </select>
+        <br>
+        <label for="comment">Comment :</label>
+        <textarea rows="5" cols="60"> </textarea><br>
+
+        
+        <input type="submit" name="submit">
+
+    </form>
+</body>
